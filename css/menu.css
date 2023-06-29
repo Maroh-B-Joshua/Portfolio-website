@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap');
+
+
+
+
+
+
+
+
+header{
+  height: 15vh;
+  margin-bottom: 0;
+  padding-bottom: 0 !important;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header span{
+  color: #8583e1;
+  font-size: 4rem; 
+}
+.header h3{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700 !important;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  padding-bottom: 0 !important;
+  /* height: 100%; */
+}
+
+.navbar ul{
+  margin: 0 auto;
+  background-color:#100f3a; 
+  position: absolute;
+  width: max-content; 
+  left: calc(50vw - 50%);
+  right: calc(50vw - 50%);
+  bottom: 0;
+  padding: 15px 0px;
+  display: none;
+}
+
+.navbar ul a{
+  text-decoration: none;
+  padding: 16px 16px;
+  color: #fff;
+}
+
+.navbar ul a:hover{
+  background-color:#8583e1;
+}
+
+
+.sidebar-btn{
+  display: block;
+  width: max-content;
+}
+.sidebar-btn svg{
+  font-size: 1.5rem;
+}
+
+.active{
+  background-color:#8583e1;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES  */
+
+/* Small devices (landscape phones, 576px and down) */
+
+@media screen and (max-width: 576px) {
+  .header h3{
+      margin: 0 1rem;
+  }
+ 
+  .sidebar-btn{
+      margin: 0 1rem;
+  } 
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media screen and (min-width: 576px) {
+
+ 
+
+}
+
+/* Medium devices (tablets, 768px and down) */
+
+@media screen and (max-width: 768px) {
+  
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media screen and (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and down) */
+
+@media screen and (max-width: 992px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+  
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media screen and (min-width: 1200px) {
+  .navbar ul{
+    display: block;
+  }
+
+  .sidebar-btn{
+    display: none;
+  }
+}

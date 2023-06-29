@@ -1,0 +1,19 @@
+.ctf{
+  display: block;
+  padding: 1rem 1.2rem;
+}
+
+.ctf h5{
+margin: 1rem 0;
+}
+
+.ctf a{
+  text-decoration: none;
+  margin: 1rem 0 !important;
+  display: block;
+}
+
+.ctf img{
+  width: 100%;
+  display: block;
+}
